@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-2do-cuatri",
+  "version": "1.0.0",
+  "description": "Videojuego usando Herencia y Polimorfismo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Matias Ocampos",
+  "license": "ISC"
+}
