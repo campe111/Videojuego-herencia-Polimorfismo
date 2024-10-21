@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Dragon = void 0;
-var Videojuego_1 = require("./Videojuego");
+var Personaje_1 = require("./Personaje");
 var Dragon = /** @class */ (function (_super) {
     __extends(Dragon, _super);
     function Dragon(nombre, tipo, fuerza, escupeFuego, defensaEscamas, stormFire) {
@@ -48,5 +48,5 @@ var Dragon = /** @class */ (function (_super) {
         }
     };
     return Dragon;
-}(Videojuego_1.Personaje));
+}(Personaje_1.Personaje));
 exports.Dragon = Dragon;

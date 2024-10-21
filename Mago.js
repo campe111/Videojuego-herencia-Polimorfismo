@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Mago = void 0;
-var Videojuego_1 = require("./Videojuego");
+var Personaje_1 = require("./Personaje");
 var Mago = /** @class */ (function (_super) {
     __extends(Mago, _super);
     function Mago(nombre, tipo, fuerza, ataqueHechizo, capaMagica, nuevoHechizo) {
@@ -48,5 +48,5 @@ var Mago = /** @class */ (function (_super) {
         }
     };
     return Mago;
-}(Videojuego_1.Personaje));
+}(Personaje_1.Personaje));
 exports.Mago = Mago;

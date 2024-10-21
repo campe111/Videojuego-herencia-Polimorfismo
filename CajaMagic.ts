@@ -1,4 +1,4 @@
-import { Personaje } from "./Videojuego";
+import { Personaje } from "./Personaje";
 class CajaMagica {
     private habilidades: string[];
 

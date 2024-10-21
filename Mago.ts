@@ -1,4 +1,4 @@
-import { Personaje } from "./Videojuego";
+import { Personaje } from "./Personaje";
 class Mago extends Personaje {
     private ataque: string;
     private defensa: string;

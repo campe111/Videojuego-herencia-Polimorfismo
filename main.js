@@ -7,14 +7,6 @@ var CajaMagic_1 = require("./CajaMagic");
 var mago = new Mago_1.Mago("Dynamo", "Mago", 100, "Hechizo", "Capa magica", "Aresto Momentum");
 var dragon = new Dragon_1.Dragon("Griffin", "Dragon", 100, "Fuego", "Escamas", "Bola de Fuego");
 var caballero = new Caballero_1.Caballero("Sir Lancelot", "Caballero", 100, "Espada", "Escudo", "Martillo de Acero");
-var cajaMagica = new CajaMagic_1.CajaMagica();
-cajaMagica.otorgarHabilidades([mago, dragon, caballero]);
-mago.getHabilidad();
-dragon.getHabilidad();
-caballero.getHabilidad();
-console.log("El mago ".concat(mago.getNombre(), " ha evolucionado al abrir la caja magica y tiene una nueva habilidad: ").concat(mago.getHabilidad()));
-console.log("El dragon ".concat(dragon.getNombre(), " ha evolucionado al abrir la caja magica y tiene una nueva habilidad: ").concat(dragon.getHabilidad()));
-console.log("El caballero ".concat(caballero.getNombre(), " ha evolucionado al abrir la caja magica y tiene una nueva habilidad: ").concat(caballero.getHabilidad()));
 // mago.getAtaque();
 // dragon.getAtacar();
 // caballero.getAtaque();
@@ -27,3 +19,12 @@ console.log("El caballero ".concat(caballero.getNombre(), " ha evolucionado al a
 // mago.getDefensa();
 // dragon.getDefensa();
 // caballero.getDefensa();
+// ---------------------------------------PUNTO EXTRA-EVOLUCION DE PERSONAJES----------
+var cajaMagica = new CajaMagic_1.CajaMagica();
+cajaMagica.otorgarHabilidades([mago, dragon, caballero]);
+mago.getHabilidad();
+dragon.getHabilidad();
+caballero.getHabilidad();
+console.log("El mago ".concat(mago.getNombre(), " ha evolucionado al abrir la caja magica y tiene una nueva habilidad: ").concat(mago.getHabilidad()));
+console.log("El dragon ".concat(dragon.getNombre(), " ha evolucionado al abrir la caja magica y tiene una nueva habilidad: ").concat(dragon.getHabilidad()));
+console.log("El caballero ".concat(caballero.getNombre(), " ha evolucionado al abrir la caja magica y tiene una nueva habilidad: ").concat(caballero.getHabilidad()));
